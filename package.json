@@ -8,8 +8,13 @@
         "url": "https://github.com/cyrilverloop/codingame-ts-tests.git"
     },
     "type": "module",
+    "scripts": {
+        "test": "vitest --config ./ci/vitest.config.ts",
+        "coverage": "vitest run --config ./ci/vitest.config.ts --coverage"
+    },
     "dependencies": {
         "@types/node": "^22.14.0",
-        "typescript": "^5.8.3"
+        "typescript": "^5.8.3",
+        "vitest": "^3.1.1"
     }
 }
