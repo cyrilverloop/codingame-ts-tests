@@ -1,0 +1,9 @@
+services:
+    app:
+        environment:
+            - ENV=/home/node/codingame/.ashrc
+        image: node:23-alpine
+        user: ${uid}:${gid}
+        volumes:
+            - ./:/home/node/codingame/
+        working_dir: /home/node/codingame/

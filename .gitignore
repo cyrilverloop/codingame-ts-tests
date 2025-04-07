@@ -1,0 +1,12 @@
+/lib/easy/
+/lib/expert/
+/lib/hard/
+/lib/medium/
+/node_modules/
+/test/easy/
+/test/expert/
+/test/hard/
+/test/medium/
+/.ashrc
+/.env
+/compose.override.yaml

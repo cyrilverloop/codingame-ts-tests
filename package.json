@@ -1,0 +1,15 @@
+{
+    "name": "codingame-ts-tests",
+    "description": "A project to test your CodinGame TypeScript code.",
+    "author": "Cyril VERLOOP <cyril.verloop@webqard.fr>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cyrilverloop/codingame-ts-tests.git"
+    },
+    "type": "module",
+    "dependencies": {
+        "@types/node": "^22.14.0",
+        "typescript": "^5.8.3"
+    }
+}
