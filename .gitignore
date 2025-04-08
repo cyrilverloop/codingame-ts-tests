@@ -1,8 +1,8 @@
 /ci/coverage/
-/lib/easy/
-/lib/expert/
-/lib/hard/
-/lib/medium/
+/src/easy/
+/src/expert/
+/src/hard/
+/src/medium/
 /node_modules/
 /test/easy/
 /test/expert/
