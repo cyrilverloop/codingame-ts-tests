@@ -9,6 +9,7 @@
     },
     "type": "module",
     "scripts": {
+        "check": "npx tsc",
         "coverage": "vitest run -c ./ci/vitest.config.ts --coverage",
         "test": "vitest -c ./ci/vitest.config.ts"
     },
