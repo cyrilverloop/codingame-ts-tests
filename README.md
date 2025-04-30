@@ -5,7 +5,7 @@ It only contains tests to let you code in your favorite IDE, outside of the Codi
 
 [![License](https://img.shields.io/github/license/cyrilverloop/codingame-ts-tests)](https://github.com/cyrilverloop/codingame-ts-tests/blob/trunk/LICENSE)
 
-**This project uses Node 23 and TypeScript 5.8.0. CodinGame uses Node 20.9.0 and TypeScript 5.6.2.**
+**This project uses Node 23 and TypeScript 5.8. CodinGame uses Node 20.9.0 and TypeScript 5.6.2.**
 
 
 ## Installation
@@ -30,6 +30,44 @@ Installing the dependencies :
 ```shellsession
 user@host codingame-ts-tests$ docker compose run --rm app npm i
 ```
+
+Generate the code and test files :
+```shellsession
+user@host codingame-ts-tests$ docker compose run --rm app npm run generate
+```
+
+**Existing code, test, input and output files will not be overwritten.
+To generate a file again, you must delete it first.**
+
+
+## Add your code
+
+Every files in `./src/**/CGCode.ts` files have an `execute()` method with the default CodinGame code.
+A test executes the `execute()` method. You can add your code in and arround it.
+
+Verifying your TypeScript code :
+```shellsession
+user@host codingame-ts-tests$ docker compose run --rm app npm run check
+```
+
+
+## Test your solution
+
+Executing tests for a specific code :
+```shellsession
+user@host codingame-ts-tests$ docker compose run --rm app npm test ./test/easy/ASCIIArt/
+```
+
+Executing tests and generate coverage report for a specific code :
+```shellsession
+user@host codingame-ts-tests$ docker compose run --rm app npm run coverage ./test/easy/ASCIIArt/
+```
+
+
+## Add your test (optional)
+
+Every tests in `./test/**/CG.test.ts` files include the tests from CodinGame.
+You can add your own tests in `./test/**/*.ts` files.
 
 
 ## Time limit
