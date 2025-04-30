@@ -13,7 +13,7 @@
         "coverage": "vitest run -c ./ci/vitest.config.ts --coverage",
         "generate": "npx vite-node -c ./vite.config.ts ./bin/generate.ts",
         "test": "vitest -c ./ci/vitest.config.ts",
-        "test:generator": "vitest -c ./ci/vitest.config.ts ./test/configuration/*.test.ts  ./test/generator/*.test.ts./test/parser/*.test.ts"
+        "test:generator": "vitest -c ./ci/vitest.config.ts ./test/configuration/*.test.ts ./test/generator/*.test.ts ./test/parser/*.test.ts"
     },
     "dependencies": {
         "@cyrilverloop/codingame-configuration": "^1.14.0",
