@@ -1,0 +1,33 @@
+import { afterEach, suite, test, vi } from 'vitest';
+import console from 'node:console';
+import { sep } from 'path';
+import File from '../../File.js';
+import { assertConsoleOutput } from '../../assertConsoleOutput.js';
+import { execute } from '../../../src/{{ configuration.path }}/CGCode.js';
+
+const __dirname = new URL('.', import.meta.url).pathname;
+
+/**
+ * Tests for "{{ configuration.name|raw }}".
+ */
+suite("{{ configuration.name|raw }}", () => {
+    const consoleSpy = vi.spyOn(console, 'log');
+
+    afterEach(() => {
+        consoleSpy.mockReset();
+    });
+
+{% for test in configuration.testConfigurations %}
+
+    /**
+     * Tests the code with "{{ test.name|replace({'*/': '* /'})|raw }}".
+     */
+    test("{{ test.name|raw }}", () => {
+        const inputFile = new File(__dirname + 'input' + sep + '{{ test.file }}');
+
+        execute(inputFile.readline.bind(inputFile));
+
+        assertConsoleOutput(consoleSpy, __dirname + 'output' + sep + '{{ test.file }}');
+    });
+{% endfor %}
+});

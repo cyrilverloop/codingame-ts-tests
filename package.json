@@ -11,11 +11,18 @@
     "scripts": {
         "check": "npx tsc",
         "coverage": "vitest run -c ./ci/vitest.config.ts --coverage",
-        "test": "vitest -c ./ci/vitest.config.ts"
+        "generate": "npx vite-node -c ./vite.config.ts ./bin/generate.ts",
+        "test": "vitest -c ./ci/vitest.config.ts",
+        "test:generator": "vitest -c ./ci/vitest.config.ts ./test/configuration/*.test.ts  ./test/generator/*.test.ts./test/parser/*.test.ts"
     },
     "dependencies": {
+        "@cyrilverloop/codingame-configuration": "^1.14.0",
+        "@types/n-readlines": "^1.0.6",
         "@types/node": "^22.14.0",
+        "@types/twig": "^1.12.16",
         "@vitest/coverage-v8": "^3.1.1",
+        "n-readlines": "^1.0.1",
+        "twig": "^1.17.1",
         "typescript": "^5.8.3",
         "vitest": "^3.1.1"
     }

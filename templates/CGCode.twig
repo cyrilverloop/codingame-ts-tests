@@ -1,0 +1,12 @@
+import File from '../../../test/File.js';
+import console from 'node:console';
+
+/**
+ * The "{{ configuration.name|raw }}" CGCode.
+ * @see {@link {{ configuration.link }} }
+ */
+function execute(readline: File['readline']): void {
+    {{ configuration.defaultCode|raw }}
+}
+
+export { execute };

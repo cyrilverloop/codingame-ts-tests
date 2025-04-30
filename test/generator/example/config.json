@@ -1,0 +1,18 @@
+{
+    "path": "easy/APuzzle",
+    "name": "A name",
+    "alphanumName": "anAlphanumName",
+    "link": "https://a-link",
+    "tests": [
+        {
+            "name": "Test name",
+            "alphanumName": "testAlphanumName",
+            "file": "01 - test file.txt"
+        },
+        {
+            "name": "Test name 2",
+            "alphanumName": "testAlphanumName2",
+            "file": "02 - test file 2.txt"
+        }
+    ]
+}

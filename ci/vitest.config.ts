@@ -3,7 +3,7 @@ import { coverageConfigDefaults, defineConfig } from 'vitest/config';
 export default defineConfig({
     test: {
         coverage: {
-            exclude: ['./ci/', ...coverageConfigDefaults.exclude],
+            exclude: ['./bin/','./ci/', ...coverageConfigDefaults.exclude],
             reporter: ['html'],
             reportsDirectory: './ci/coverage/'
         },
