@@ -18,7 +18,7 @@
     "dependencies": {
         "@cyrilverloop/codingame-configuration": "^1.14.0",
         "@types/n-readlines": "^1.0.6",
-        "@types/node": "^22.14.0",
+        "@types/node": "^24.0.7",
         "@types/twig": "^1.12.16",
         "@vitest/coverage-v8": "^3.1.1",
         "n-readlines": "^1.0.1",
