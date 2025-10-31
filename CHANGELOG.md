@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - cyril-verloop/codingame-configuration 1.19.0 => 1.20.0.
 - @types/node 24.6.0 => 24.9.2.
 - typescript 5.9.2 => 5.9.3.
+- @vitest/coverage-v8 3.2.4 => 4.0.6.
+- vitest 3.2.4 => 4.0.6.
 
 ## [1.5.0] - 2025-09-30
 ### Changed
