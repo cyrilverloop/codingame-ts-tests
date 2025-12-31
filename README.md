@@ -5,7 +5,7 @@ It only contains tests to let you code in your favorite IDE, outside of the Codi
 
 [![License](https://img.shields.io/github/license/cyrilverloop/codingame-ts-tests)](https://github.com/cyrilverloop/codingame-ts-tests/blob/trunk/LICENSE)
 
-**This project uses Node 24 and TypeScript 5.9. CodinGame uses Node 20.9.0 and TypeScript 5.6.2.**
+**This project uses Node 25 and TypeScript 5.9. CodinGame uses Node 20.9.0 and TypeScript 5.6.2.**
 
 
 ## Installation
