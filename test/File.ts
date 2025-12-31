@@ -22,9 +22,15 @@ export default class File {
 
     /**
      * Reads a line.
-     * @returns {string} - a line.
+     * @returns {(string|null)} - a line or null.
      */
-    readline(): string {
-        return this.#liner.next().toString("utf8");
+    readline(): string|null {
+        const line = this.#liner.next();
+
+        if(line === null) {
+            return null;
+        }
+
+        return line.toString("utf8");
     }
 }

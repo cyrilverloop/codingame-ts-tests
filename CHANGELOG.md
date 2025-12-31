@@ -10,8 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - @types/node 24.10.1 => 25.0.3.
 - @cyrilverloop/codingame-configuration 1.21.0 => 1.22.0.
 - @vitest/coverage-v8 4.0.14 => 4.0.16.
-- n-readlines 1.0.1 => 1.0.3.
 - vitest 4.0.14 => 4.0.16.
+- n-readlines 1.0.3 => 3.4.0.
 
 ## [1.7.0] - 2025-11-30
 ### Changed
