@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+### Changed
+- @cyrilverloop/codingame-configuration 1.22.0 => 1.23.0.
+- @types/node 25.0.3 => 25.2.0.
+- @vitest/coverage-v8 4.0.16 => 4.0.18.
+- n-readlines 3.4.0 => 3.4.1.
+- vitest 4.0.16 => 4.0.18.
+
 ## [1.8.0] - 2025-12-31
 ### Changed
 - Node 24 => 25.
