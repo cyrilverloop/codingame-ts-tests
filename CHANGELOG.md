@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.9.0] - 2026-02-02
 ### Changed
+- @types/node 25.2.0 => 25.3.2.
+
+## [1.9.0] - 2026-02-02
+### Changed
 - @cyrilverloop/codingame-configuration 1.22.0 => 1.23.0.
 - @types/node 25.0.3 => 25.2.0.
 - @vitest/coverage-v8 4.0.16 => 4.0.18.
