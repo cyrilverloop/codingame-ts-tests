@@ -22,8 +22,8 @@
         "@types/twig": "^1.12.16",
         "@vitest/coverage-v8": "^4.0.6",
         "n-readlines": "^3.4.0",
-        "twig": "^1.17.1",
-        "typescript": "^5.8.3",
+        "twig": "^3.0.0",
+        "typescript": "^6.0.2",
         "vitest": "^4.0.6"
     }
 }

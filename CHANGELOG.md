@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+### Changed
+- @cyrilverloop/codingame-configuration 1.24.0 => 1.25.0.
+- @types/node 25.3.2 => 25.5.0.
+- @vitest/coverage-v8 4.0.18 => 4.1.2.
+- vitest 4.0.18 => 4.1.2.
+- twig 1.17.1 => 3.0.0.
+- typescript 5.9.3 => 6.0.2.
+
 ## [1.10.0] - 2026-02-28
 ### Changed
 - @cyrilverloop/codingame-configuration 1.23.0 => 1.24.0.
