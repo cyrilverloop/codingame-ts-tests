@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - @types/node 25.6.0 => 25.9.1.
 - @vitest/coverage-v8 4.1.5 => 4.1.7.
 - vitest 4.1.5 => 4.1.7.
+- @cyrilverloop/codingame-configuration 1.26.0 => 1.27.0.
 
 ## [1.12.0] - 2026-04-30
 ### Changed
