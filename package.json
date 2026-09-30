@@ -20,10 +20,10 @@
         "@types/n-readlines": "^1.0.6",
         "@types/node": "^26.0.1",
         "@types/twig": "^1.12.16",
-        "@vitest/coverage-v8": "^4.0.6",
+        "@vitest/coverage-v8": "^5.0.3",
         "n-readlines": "^3.4.0",
         "twig": "^3.0.0",
         "typescript": "^7.0.2",
-        "vitest": "^4.0.6"
+        "vitest": "^5.0.3"
     }
 }
